@@ -25,6 +25,7 @@ const Navbar = () => {
                 </div>
                 <li><Link to='/gallery' classname="link">Gallery</Link></li>
                 <li><Link to='/use-effect' classname="link">use-effect</Link></li>
+                <li><Link to='/use-effect-api' classname="link">use-effect-api</Link></li>
                 <li><Link to='/contact' classname="link">Contact</Link></li>
                 <li><Link to='/' classname="link">Signup</Link></li>
             </ul>
