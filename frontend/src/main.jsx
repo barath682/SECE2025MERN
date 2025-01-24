@@ -8,7 +8,7 @@ import About from './components/FunctionalComponents/about.jsx';
 import Gallery from './components/FunctionalComponents/gallary.jsx';
 import Contact from './components/FunctionalComponents/contact.jsx';
 import Signup from './components/FunctionalComponents/signup.jsx';
-import NavBar from './components/FunctionalComponents/navBar.jsx'; // Corrected path
+import NavBar from './components/FunctionalComponents/navbar.jsx'; // Corrected path
 
 // Hooks Components
 import UseState from './components/FunctionalComponents/Hooks/useState.jsx';

@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react"
-import NavBar from "../navBar";
+import NavBar from "../navbar";
 
 var slowfunc=(num)=>{
     for(var slow=0;slow<100000;slow++){}

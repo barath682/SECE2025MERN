@@ -1,5 +1,5 @@
 import { useReducer } from "react"
-import NavBar from "../navBar"
+import NavBar from "../navbar"
 
 const UseReducer=()=>{
     var actions={

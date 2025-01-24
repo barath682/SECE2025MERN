@@ -1,5 +1,5 @@
 import { useState ,useEffect} from "react"
-import NavBar from "../navBar"
+import NavBar from "../navbar"
 import axios from 'axios'
 const UseEffectApi=()=>{
    

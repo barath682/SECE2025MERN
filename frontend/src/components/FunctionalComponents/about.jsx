@@ -1,5 +1,5 @@
 import { useState } from "react"
-import NavBar from "./navBar";
+import NavBar from "./navbar";
 
 const About=()=>{
     var [text,setText]=useState("yooooo!");

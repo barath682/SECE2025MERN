@@ -1,5 +1,5 @@
 import UseState from "./Hooks/useState"
-import NavBar from "./navBar"
+import NavBar from "./navbar"
 
 function Home(){
     return (
