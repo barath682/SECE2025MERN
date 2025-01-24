@@ -4,7 +4,7 @@ import Home from './components/FunctionalComponents/home.jsx'
 import About from './components/FunctionalComponents/about.jsx'
 import Gallery from './components/FunctionalComponents/gallary.jsx'
 import Contact from './components/FunctionalComponents/contact.jsx'
-import Signup from './components/FunctionalComponents/signUp.jsx'
+import Signup from './components/FunctionalComponents/signup.jsx'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 import UseState from './components/FunctionalComponents/Hooks/useState.jsx'
@@ -24,6 +24,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/about" element={<About/>}></Route>
       <Route path="/gallery" element={<Gallery/>}></Route>
       <Route path="/contact" element={<Contact/>}></Route>
+     
       <Route path="/usestate" element={<UseState/>}></Route>
       <Route path="/use-effect" element={<UseEffect/>}></Route>
       <Route path="/use-effect-api" element={<UseEffectApi/>}></Route>
