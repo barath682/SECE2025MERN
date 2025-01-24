@@ -1,8 +1,12 @@
+import UseState from "./Hooks/useState"
+import NavBar from "./navBar"
+
 function Home(){
     return (
         <div>
-            <h1>WELCOME</h1>
-            <h2>This is the Page after Signup</h2>
+            <NavBar/>
+            <h1>hello</h1>
+            <h2>this is home page</h2>
         </div>
     )
 }

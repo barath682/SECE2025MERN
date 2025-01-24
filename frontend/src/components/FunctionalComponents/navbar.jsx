@@ -1,37 +1,34 @@
 import { Link } from "react-router-dom"
-import { useState } from "react"
-import "../../css/Navbar.css"
-import '../../css/signup.css'
-const Navbar = () => {
-  var [dropdown,showdropdown]=useState(false)
-    return(
-        <header>
-          <nav>
-            <ul>
-                <li><Link to='/home' classname="link">Home</Link></li>
-                <li><Link to='/about' classname="link">About</Link></li>
-                <div>
-                  <span onMouseOver={()=>showdropdown(true)} onMouseLeave={()=>showdropdown(false)}>hoooks</span>
-                  {dropdown && (
+import "../../css/nav.css"
+const NavBar=()=>{
+    return (
+            <header>
+                <nav>
                     <ul>
-                      <li><Link to='/contact' className="link">useState</Link></li>
-                      <li><Link to='/gallery' className="link">gallery</Link></li>
+                        <li><Link to='/home' className="link">Home</Link></li>
+                        <li><Link to='/about' className="link">about</Link></li>
+                        <li><Link to='/gallery' className="link">gallery</Link></li>
+                        <li className="dropdown">
+                            <span className="link">Hooks</span>
+                            <div className="hooks">
+                            <li><Link to='/usestate' className="link">useState</Link></li>
+                            <li><Link to='/use-effect' className="link">use-effect</Link></li>
+                            <li><Link to='/use-effect-api' className="link">use-effect-api</Link></li>
+                            <li><Link to='/use-reducer' className="link">useReducer</Link></li>
+                            <li><Link to='/use-effect-Image' className="link">use-effect-image</Link></li>
+                            <li><Link to='/use-ref' className="link">use-ref</Link></li>
+                            <li><Link to='/use-memo' className="link">use-memo</Link></li>
+                            <li><Link to='/use-callback' className="link">use-callback</Link></li>
+                            </div>
+                        </li>
+                        
+                        <li><Link to='/contact' className="link">contact</Link></li>
+                        <li><Link to='/' className="link" >SignUp</Link></li>
+                        
                     </ul>
-                  )}
-                  <ul>
-                  {/* <li><Link to='/contact' className="link">home</Link></li> */}
-                  {/* <li><Link to='/gallery' className="link">about</Link></li> */}
-                  </ul>
-                </div>
-                <li><Link to='/gallery' classname="link">Gallery</Link></li>
-                <li><Link to='/use-effect' classname="link">use-effect</Link></li>
-                <li><Link to='/use-effect-api' classname="link">use-effect-api</Link></li>
-                <li><Link to='/contact' classname="link">Contact</Link></li>
-                <li><Link to='/' classname="link">Signup</Link></li>
-            </ul>
-          </nav>
-        </header>
+                </nav>
+            </header>
+    
     )
 }
-
-export default Navbar
+export default NavBar
