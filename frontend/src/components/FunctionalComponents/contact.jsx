@@ -1,5 +1,5 @@
 import { useState } from "react";
-import NavBar from "./navbar";
+import NavBar from "./navBar";
 
 function Contact(){
     var [val,fun]=useState(78);//value and dispatch-funtions are two things given by useState()

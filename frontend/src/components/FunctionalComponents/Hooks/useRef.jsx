@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import NavBar from "../navbar"
+import NavBar from "../navBar"
 
 const UseRef=()=>{
     var [text,setText]=useState("")
